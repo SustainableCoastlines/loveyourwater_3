@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b9b3ef048b4c49508f75c6ad3f8bc6b2",
+    "hash": "55cc7e90e9d7e9c65cd45e1130dadd42",
     "packages": [
         {
             "name": "ajshort/silverstripe-gridfieldextensions",
@@ -48,6 +48,51 @@
                 "silverstripe"
             ],
             "time": "2014-07-09 12:49:12"
+        },
+        {
+            "name": "betterbrief/silverstripe-googlemapfield",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BetterBrief/silverstripe-googlemapfield.git",
+                "reference": "36cccca6f13e881f01bec7724270701a7552c70b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BetterBrief/silverstripe-googlemapfield/zipball/36cccca6f13e881f01bec7724270701a7552c70b",
+                "reference": "36cccca6f13e881f01bec7724270701a7552c70b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "googlemapfield"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Will Morgan",
+                    "homepage": "http://twitter.com/willmorgan",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Save locations using latitude/longitude DataObject fields.",
+            "homepage": "http://github.com/BetterBrief/googlemapfield",
+            "keywords": [
+                "geolocation",
+                "google",
+                "googlemapfield",
+                "map",
+                "maps",
+                "silverstripe"
+            ],
+            "time": "2014-07-18 11:27:40"
         },
         {
             "name": "composer/installers",
@@ -319,7 +364,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "silverstripe/dms": 20
+        "silverstripe/dms": 20,
+        "betterbrief/silverstripe-googlemapfield": 20
     },
     "prefer-stable": false,
     "platform": {

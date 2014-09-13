@@ -6,7 +6,8 @@
 		"silverstripe/cms": "3.1.6",
 		"silverstripe/framework": "3.1.6",
 		"silverstripe-themes/simple": "*",
-		"silverstripe/dms": "dev-master"
+		"silverstripe/dms": "dev-master",
+		"betterbrief/silverstripe-googlemapfield": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600	
