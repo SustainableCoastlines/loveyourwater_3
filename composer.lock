@@ -4,8 +4,51 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8f55496e0e69b1beec33d77b2ec26e98",
+    "hash": "b9b3ef048b4c49508f75c6ad3f8bc6b2",
     "packages": [
+        {
+            "name": "ajshort/silverstripe-gridfieldextensions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ajshort/silverstripe-gridfieldextensions.git",
+                "reference": "7bf3cf9a319f35ca858385c8146685ee4bfc5ad0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ajshort/silverstripe-gridfieldextensions/zipball/7bf3cf9a319f35ca858385c8146685ee4bfc5ad0",
+                "reference": "7bf3cf9a319f35ca858385c8146685ee4bfc5ad0",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "gridfieldextensions",
+                "screenshots": [
+                    "docs/en/_images/editable-rows.png",
+                    "docs/en/_images/add-existing-search.png"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                }
+            ],
+            "description": "A collection of useful grid field components",
+            "homepage": "http://github.com/ajshort/silverstripe-gridfieldextensions",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2014-07-09 12:49:12"
+        },
         {
             "name": "composer/installers",
             "version": "dev-master",
@@ -180,6 +223,45 @@
             "time": "2014-08-12 22:52:51"
         },
         {
+            "name": "silverstripe/dms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-labs/silverstripe-dms.git",
+                "reference": "86384406602f89763b15bd536e855945160f4b8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-dms/zipball/86384406602f89763b15bd536e855945160f4b8b",
+                "reference": "86384406602f89763b15bd536e855945160f4b8b",
+                "shasum": ""
+            },
+            "require": {
+                "ajshort/silverstripe-gridfieldextensions": "dev-master",
+                "silverstripe/cms": "~3.1",
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Julian Seidenberg",
+                    "email": "julian@silverstripe.com"
+                }
+            ],
+            "description": "Adds a Document Management System to SilverStripe ",
+            "keywords": [
+                "dms",
+                "document",
+                "document management system",
+                "silverstripe"
+            ],
+            "time": "2014-07-10 06:49:51"
+        },
+        {
             "name": "silverstripe/framework",
             "version": "3.1.6",
             "source": {
@@ -236,9 +318,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "silverstripe/dms": 20
+    },
     "prefer-stable": false,
     "platform": {
         "php": ">=5.3.2"
