@@ -160,7 +160,7 @@ body {
 .typography img {
     border: 5px solid #d7d7d7;
     height: auto; /* resets the image height so that it maintains its aspect ratio when width is set */
-    background: transparent url(../images/ajax-loader.gif) no-repeat center center;
+    /*background: transparent url(../images/ajax-loader.gif) no-repeat center center;*/
 }
 .typography img.left {
     float: left;
