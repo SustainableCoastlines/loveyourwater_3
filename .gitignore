@@ -1,3 +1,4 @@
+cms/*
 assets/*
 _ss_environment.php
 tools/phing-metadata
@@ -8,3 +9,4 @@ silverstripe-cache
 .idea
 .DS_Store
 vendor/
+framework/*
