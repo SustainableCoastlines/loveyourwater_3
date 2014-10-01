@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "55cc7e90e9d7e9c65cd45e1130dadd42",
+    "hash": "5d252dd63a7d5648af81a95107682393",
     "packages": [
         {
             "name": "ajshort/silverstripe-gridfieldextensions",
@@ -100,12 +100,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
+                "reference": "5ed225fe8545c4e4bf502d56fdd87791ecfdd078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
-                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+                "url": "https://api.github.com/repos/composer/installers/zipball/5ed225fe8545c4e4bf502d56fdd87791ecfdd078",
+                "reference": "5ed225fe8545c4e4bf502d56fdd87791ecfdd078",
                 "shasum": ""
             },
             "replace": {
@@ -147,6 +147,7 @@
                 "Hurad",
                 "MODX Evo",
                 "OXID",
+                "Thelia",
                 "WolfCMS",
                 "agl",
                 "annotatecms",
@@ -159,6 +160,7 @@
                 "drupal",
                 "elgg",
                 "fuelphp",
+                "grav",
                 "installer",
                 "joomla",
                 "kohana",
@@ -182,7 +184,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-08-18 20:00:12"
+            "time": "2014-09-25 03:36:45"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -354,6 +356,46 @@
                 "silverstripe"
             ],
             "time": "2014-08-24 23:25:01"
+        },
+        {
+            "name": "sktzoootech/instagramfeed",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sktzoootech/instagramfeed.git",
+                "reference": "a2df8146ee0d8939b6eca215fe6e6176e96d76b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sktzoootech/instagramfeed/zipball/a2df8146ee0d8939b6eca215fe6e6176e96d76b1",
+                "reference": "a2df8146ee0d8939b6eca215fe6e6176e96d76b1",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "instagramfeed"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Davis Dimalen",
+                    "email": "davis.dimalen@gmail.com"
+                }
+            ],
+            "description": "A module that shows instagram feed based on a hash tag",
+            "homepage": "https://github.com/sktzoootech/instagramfeed",
+            "keywords": [
+                "instagram",
+                "instagramfeed",
+                "silverstripe"
+            ],
+            "time": "2014-09-30 20:39:50"
         }
     ],
     "packages-dev": [
@@ -365,7 +407,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/dms": 20,
-        "betterbrief/silverstripe-googlemapfield": 20
+        "betterbrief/silverstripe-googlemapfield": 20,
+        "sktzoootech/instagramfeed": 20
     },
     "prefer-stable": false,
     "platform": {

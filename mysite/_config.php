@@ -9,7 +9,7 @@ $databaseConfig = array(
 	"server" => 'localhost',
 	"username" => 'loveyour_lyc',
 	"password" => 'jWl56ef0H82182R',
-	"database" => 'loveyour_ss',
+	"database" => 'lyw3_db',
 	"path" => '',
 );
 
